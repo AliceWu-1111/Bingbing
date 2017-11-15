@@ -1,0 +1,292 @@
+@charset "utf-8";
+* {
+	font-family: "微软雅黑";
+}
+
+.sidebar {
+	width: 30px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+.sidebar .fairy {
+	position: absolute;
+	top: 30%;
+	right: 0;
+}
+
+.sidebar .fairy li i {
+	width: 30px;
+	height: 30px;
+	background: url(../imgs/sidebaricon.png) no-repeat;
+	display: block;
+	position: relative;
+}
+
+.sidebar .fairy li div {
+	background: #57678D;
+	position: absolute;
+	left: 30px;
+	top: 0;
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	line-height: 30px;
+	display: none;
+}
+
+.sidebar .fairy li div a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sidebar .fairy li:nth-of-type(1) i {
+	background-position: 0px 0px;
+}
+
+.sidebar .fairy li:nth-of-type(2) i {
+	background-position: 0px -24px;
+}
+
+.sidebar .fairy li:nth-of-type(3) i {
+	background-position: 0px -47px;
+}
+
+.sidebar .fairy li:nth-of-type(4) i {
+	background-position: 0px -70px;
+}
+
+.sidebar .fairy li:nth-of-type(5) i {
+	background-position: 0px -94px;
+}
+
+.sidebar .fairy li:nth-of-type(6) i {
+	background-position: 0px -117px;
+}
+
+.sidebar .fairy li:nth-of-type(7) i {
+	background-position: 0px -164px;
+}
+
+.sidebar .fairy li:nth-of-type(1) i:hover {
+	background-position: -26px 0px;
+}
+
+.sidebar .fairy li:nth-of-type(2) i:hover {
+	background-position: -26px -24px;
+}
+
+.sidebar .fairy li:nth-of-type(3) i:hover {
+	background-position: -26px -47px;
+}
+
+.sidebar .fairy li:nth-of-type(4) i:hover {
+	background-position: -26px -70px;
+}
+
+.sidebar .fairy li:nth-of-type(5) i:hover {
+	background-position: -26px -94px;
+}
+
+.sidebar .fairy li:nth-of-type(6) i:hover {
+	background-position: -26px -117px;
+}
+
+.sidebar .fairy li:nth-of-type(7) i:hover {
+	background-position: -26px -164px;
+}
+
+.content {
+	width: 1200px;
+	height: 1300px;
+	background: #f8f8f8;
+	margin: 0px auto;
+}
+
+.dis {
+	margin: 20px;
+}
+
+.dist {
+	float: right;
+	margin: 10px;
+}
+
+.dist li {
+	float: left;
+	font-size: 20px;
+	color: #666;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.dist li a {
+	display: block;
+	text-decoration: none;
+	color: #666;
+}
+
+.content span a {
+	display: inline-block;
+	color: #666;
+	text-decoration: none;
+}
+
+.content span:nth-of-type(2):before {
+	content: "|";
+	padding-right: 10px;
+}
+
+.content span:nth-of-type(2) {
+	color: #57678d;
+}
+
+.content .row {
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+.content .row li {
+	border: 1px solid #666;
+	width: 280px;
+	height: 350px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	cursor: pointer;
+}
+
+.content .row li img {
+	display: block;
+}
+
+.content .row li p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 68px;
+}
+
+.content .row li div {
+	width: 120px;
+	height: 46px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 46px;
+	border-radius: 5px;
+	border: 1px solid #666;
+}
+.move {
+	position: absolute;
+	left: 480px;
+}
+.content .row li:hover{
+	background: dodgerblue;
+}
+.changes {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: none;
+	top: 40%;
+	left: 3%;
+}
+
+.cancel {
+	width: 50px;
+	height: 50px;
+	background: red;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 10px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 5;
+}
+
+.user {
+	width: 300px;
+	height: 300px;
+	background: #ccc;
+	position: fixed;
+	top: 40%;
+	left: 3%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.box {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+
+.bottombox {
+	margin: auto;
+}
+
+.box textarea {
+	width: 252px;
+	height: 50px;
+	resize: none;
+}
+
+.box input {
+	width: 250px;
+	height: 25px;
+	margin: 5px 0px;
+}
+
+.box button {
+	height: 25px;
+	width: 60px;
+	border-radius: 5px;
+	background: dodgerblue;
+	border: none;
+}
+
+.topbox {
+	width: 300px;
+	height: 30px;
+	background: dodgerblue;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.cancel {
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.user {
+	display: none;
+}
+
+.cancel a {
+	text-decoration: none;
+	display: block;
+}
+
+.bottombox span {
+	font-size: 8px;
+	color: red;
+	display: none;
+}

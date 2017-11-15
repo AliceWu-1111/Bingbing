@@ -1,0 +1,226 @@
+@charset "utf-8";
+* {
+	list-style: none;
+}
+
+#cbig {
+	background: #f5f5f5 !important;
+}
+
+#dituContent {
+	height: 400px;
+	margin: 50 0px;
+}
+
+.bigall {
+	background: #fff !important;
+	border: none !important;
+	margin-bottom: 0 !important;
+}
+
+.topall {
+	height: 100px;
+}
+
+#intro11 {
+	margin: 10px;
+}
+
+#right-top {
+	float: right;
+}
+
+#right-top li a:after {
+	content: "|"
+}
+
+#right-top li a {
+	padding-left: 0;
+}
+
+#right-top li a span {
+	display: inline-block;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.alone span {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+
+.right-bottom {
+	float: right;
+}
+
+#jieshao ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+#logo {
+	padding-left: 0;
+	margin-top: 20px;
+}
+
+
+/*底部*/
+
+#footer {
+	position: relative;
+	overflow: hidden;
+}
+
+#bgt {
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+#footer .foot {
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.blue {
+	background-color: #57678D;
+	height: 330px;
+	overflow: hidden;
+}
+
+.fff {
+	background-color: #fff;
+	height: 330px;
+	z-index: 4;
+}
+
+.code {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	float: left;
+}
+
+.code img {
+	display: block;
+	margin: 50px auto;
+}
+
+.blue hr {
+	width: 1px;
+	height: 150px;
+	background: #fff;
+	float: left;
+	margin-top: 50px;
+}
+
+#sfooter {
+	float: right;
+	margin-top: 50px;
+}
+
+#sfooter li {
+	float: left;
+}
+
+#sfooter li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+#sfooter li .snav {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+#sfooter li span {
+	margin: 10px 0px;
+	display: block;
+}
+
+.sao {
+	width: 214px;
+	height: 104px;
+	float: left;
+}
+
+.about {
+	width: 270px;
+	height: 300px;
+	float: right;
+	margin-top: 40px;
+	color: #57678D;
+}
+
+.about li h3 {
+	text-align: left;
+	margin: 20px 0;
+}
+
+.about li p {
+	text-align: left;
+	margin: 10px 0;
+}
+
+.about li hr {
+	width: 100px;
+	height: 1px;
+	background: #57678D;
+	border: none;
+	margin: 5px 0;
+}
+
+#footer .text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	opacity: 0.5;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	#footer {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar {
+		background-image: none;
+		text-align: center;
+		font-size: 30px;
+		z-index: 20;
+	}
+	.shows {
+		background: #000;
+	}
+	#right-top {
+		display: none;
+	}
+}
+
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
